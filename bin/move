@@ -7,5 +7,5 @@ puts "Welcome to Tic Tac Toe!"
 puts "Where would you like to go?"
 val = input_to_index(gets.strip)
 board = Array.new(9, " ")
-move(board, val)
+# move(board, val)
 display_board(board)
